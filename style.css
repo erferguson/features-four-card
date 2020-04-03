@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap');
 
 * {
     background: hsl(0, 0%, 98%);
-
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
+
+header {
+    max-width: 700px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0;
+    color: hsl(229, 6%, 66%);
+}
+h1 span {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
